@@ -24,6 +24,14 @@ return {
           },
         },
       },
+      stylelint_lsp = {
+        settings = {
+          stylelintplus = {
+            autoFixOnFormat = true,
+            --  autoFixOnSave = true,
+          },
+        },
+      },
     },
   },
 }
